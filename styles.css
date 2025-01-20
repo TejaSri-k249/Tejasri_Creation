@@ -24,7 +24,8 @@ body{
   background-color:#202020;
 }
 .container{
-  width: 1170px;
+  /* width: 1170px; */
+  width: 1280px;
   margin:auto;
 }
 
@@ -34,7 +35,7 @@ body{
       /*---------------------------Header---------------------------*/
 
 .header-area{
-  padding:25px 0;
+  padding:25px 0px 0px 0;
   transition: padding .3s;
 }
 
@@ -76,7 +77,7 @@ body{
 .signature {
   width: 100px; 
   height:auto; 
-  margin-right: 10px; 
+  /* margin-right: 10px;  */
 }
 
 .header ul li:first-child {
@@ -114,7 +115,7 @@ body{
    display:flex;
    justify-content: space-around;
    align-items: center;
-   padding-top: 5rem; 
+   padding-top: 1rem; 
 } 
 
 .FirstElement.adjusted-padding {
@@ -146,6 +147,9 @@ profile-photo .img{
   color: #e5e5e5;
   font-size: 14px;
 }
+.profile-text h3{
+  color: #e5e5e5
+}
 .profile-text h1{
   color: #fed700;
   font-size: 3rem; 
@@ -169,14 +173,14 @@ profile-photo .img{
  /*---------------------------About---------------------------*/
 
 .about-area{
-  padding-top: 130px;
+  padding-top: 5px;
   background-color: #202020;
 }
 .about{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:50px;
+  /* margin-bottom:50px; */
 }
 .about-content{
   flex-basis: 60%;
@@ -240,8 +244,8 @@ profile-photo .img{
 .education-content .row{
   display: flex;
   border-radius: 5px;
-  height: 400px;
-  margin-bottom: 250px;
+  /* height: 400px;
+  margin-bottom: 250px; */
 }
 
 .education-content .title{
@@ -253,7 +257,7 @@ profile-photo .img{
   color: #e5e5e5;
   flex:0 0 50%;
   max-width: 50%;
-  margin-top: 30px;
+  /* margin-top: 30px;   */
 } 
 .education-content  h3.title{
   font-size:24px;
@@ -431,7 +435,7 @@ profile-photo .img{
 
 /*---------------------------Footer---------------------------*/
 .footer {
-    max-width: 950px;
+    /* max-width: 950px; */
     margin: 0 auto;
     padding: 15px 0 26px;
     border-top: 1px solid rgba(255, 255, 255, 0.1); 
@@ -450,86 +454,49 @@ profile-photo .img{
   .copyright {
     font-size: 12px;
   }
-
-
-
-
- /*------------------- Responsive Design on small screen -------------------*/
-
-/* Medium layout */
-@media only screen and (min-width:1000px) and (max-width:1200px){
-  .container{
-    width: 970px;
-  }
+/* Reset to ensure a clean layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media(max-width:1050px){
-  .FirstElement{ 
-    flex-direction: column;
-    padding-top: 2rem;
-  }
-  .profile-text{
-    padding: 40px 0px;
-  }
+/* Ensure the body takes up the full height */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+}
+
+/* The main container for the content */
+.container {
+  flex: 1; /* Fills the space between header and footer */
+  padding: 20px; /* Optional spacing for content */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #202020; /* Match your theme */
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 15px 0;
+  width: 100%; /* Full width footer */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer .message {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.footer .copyright {
+  font-size: 12px;
 }
 
 
 
-/* tablet layout */
-@media only screen and (min-width:768px) and (max-width:999px){
-  .container{
-    width: 750px;
-  } 
-}  
 
 
-/* Mobile Layout */
-@media only screen and (max-width:767px){
-  .container{
-    width: 350px;
-  }
 
-  .header .menu_icon {
-    display: block;
-  }
-  .header ul{
-    display: none;
-  }
-  .header i{
-    color: #e5e5e5;
-  }
-
-  .profile-text{
-    width: 350px;
-  }
-  .FirstElement .profile-text p{
-    text-align: justify;
-  }
-  .about{
-    flex-direction: column;
-    flex-basis: 100%;
-    margin-bottom: 30px;
-  }
-  .about-skills{
-    width: 100%;
-    margin-top: 30px;
-  }
-  .education-content .row {
-    flex-direction: column;
-    height: auto;
-    margin-bottom: 50px;
-  }
-
-  .education-content .row .education,
-  .education-content .row .internship {
-    flex-basis: 100%;
-    max-width: 100%;
-    margin-top: 30px;
-  }
-  .project{
-    flex-basis: 100%;
-    margin-bottom: 30px;
-  }
-
-}
+ 
 
