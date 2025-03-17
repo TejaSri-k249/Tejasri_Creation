@@ -21,7 +21,7 @@ body{
   font-family: 'Lexend', sans-serif;
   font-size:16px;
   line-height:24px; 
-  background-color:#202020;
+  background-color:#515050;
 }
 .container{
   /* width: 1170px; */
@@ -45,7 +45,7 @@ body{
   left: 0;
   width: 100%;
   z-index: 99;
-  background-color: #202020;
+  background-color: #515050;
   padding: 5px;
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .logo .fa-bolt {
-  color: #fed700;
+  color: #dcbc08;
   font-size: 19.5px;
   position: absolute; 
   top: 60%;
@@ -96,10 +96,10 @@ body{
   display: block;
 }
 .header ul li a.active{
-  color: #fed700;
+  color: #dcbc08;
 } 
 .header ul li a:hover{
-  color:#fed700;
+  color:#dcbc08;
 }
 .header .menu_icon{
   color:#fff;
@@ -164,7 +164,7 @@ profile-photo .img{
   transition: 0.5s;
 }
 .profile-text .social i:hover{
-  color:#fed700;
+  color:#dcbc08;
   transform: rotate(360deg);
 }
 
@@ -174,7 +174,7 @@ profile-photo .img{
 
 .about-area{
   padding-top: 5px;
-  background-color: #202020;
+  background-color: #515050;
 }
 .about{
   display: flex;
@@ -186,7 +186,7 @@ profile-photo .img{
   flex-basis: 60%;
 }
 .about-content h4{
-  color: #fed700;
+  color: #dcbc08;
   font-size: 40px;
   line-height: 70px;
   text-transform: capitalize;
@@ -235,7 +235,7 @@ profile-photo .img{
   box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-  border-color: #fed700;
+  border-color: #dcbc08;
 }
 
 
@@ -249,7 +249,7 @@ profile-photo .img{
 }
 
 .education-content .title{
-  color: #fed700;
+  color: #dcbc08;
 }
 .education-content .row .education,
 .education-content .row .internship
@@ -296,7 +296,7 @@ profile-photo .img{
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #fed700;  
+  background-color: #dcbc08;  
 }
 .education-content .row .circle-dot{
   position: absolute;
@@ -338,7 +338,7 @@ profile-photo .img{
   text-transform: uppercase;
   font-size: 40px;
   line-height: 40px;
-  color: #fed700;
+  color: #dcbc08;
   margin-bottom: 20px;
 }
 .project-title p{
@@ -362,7 +362,7 @@ profile-photo .img{
     transition: .3s;
 }
 .project i{
-  background-color: #fed700;
+  background-color: #dcbc08;
   width: 60px;
   height: 60px;
   color: #333;
@@ -379,7 +379,7 @@ profile-photo .img{
   text-align: justify;
 }
 .project:hover{
-  border-color: #fed700;
+  border-color: #dcbc08;
 }
 
 
@@ -393,7 +393,7 @@ profile-photo .img{
 .contact-content .contact-title h4{
   font-size: 40px;
   text-transform: capitalize;
-  color: #fed700;
+  color: #dcbc08;
   padding-bottom: 10px;
 }
 .contact-content .contact-title p{
@@ -412,7 +412,7 @@ profile-photo .img{
 
 .contact .submit{
   width: auto;
-  background-color: #fed700;
+  background-color: #dcbc08;
   padding: 10px 40px;
   font-weight:bold ;
   font-size: 18px;
@@ -478,7 +478,7 @@ body {
 
 /* Footer styling */
 .footer {
-  background-color: #202020; /* Match your theme */
+  background-color: #515050; /* Match your theme */
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   padding: 15px 0;
